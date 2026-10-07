@@ -9,26 +9,19 @@
 
 <br/><br/>
 
-<!-- 🔥 CURRENT STREAK ONLY (Clean & Centered) -->
+<!-- 🔥 CURRENT STREAK & TOTAL CONTRIBUTIONS -->
 <a href="https://github.com/SrihithaJindam">
-  <img src="https://streak-stats.demolab.com?user=SrihithaJindam&theme=tokyonight&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D&timezone=Europe%2FBerlin&hide_total_contributions=true&hide_longest_streak=true" alt="Current Streak" width="55%" />
+  <img src="https://streak-stats.demolab.com?user=SrihithaJindam&theme=tokyonight&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D&timezone=Europe%2FBerlin&hide_longest_streak=true&cache_seconds=1800&v=3" alt="GitHub Streak" width="85%" />
 </a>
 
 <br/><br/>
 
-<!-- 📈 COLORFUL DYNAMIC COMMIT & PR ACTIVITY GRAPH -->
+<!-- 📊 GITHUB OVERALL STATS & CLEAN TOP LANGUAGES -->
 <a href="https://github.com/SrihithaJindam">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SrihithaJindam&theme=tokyo-night&hide_border=true&area=true&radius=10" width="95%" alt="Contribution Wave Graph" />
-</a>
-
-<br/><br/>
-
-<!-- 📊 ACTIVITY STATS & TOP LANGUAGES -->
-<a href="https://github.com/SrihithaJindam">
-  <img src="https://github-readme-stats.vercel.app/api?username=SrihithaJindam&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=SrihithaJindam&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48.5%" />
 </a>
 <a href="https://github.com/SrihithaJindam">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SrihithaJindam&layout=compact&theme=tokyonight&hide_border=true" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SrihithaJindam&layout=compact&theme=tokyonight&hide_border=true&hide=jupyter%20notebook,html,css,scss" width="48.5%" />
 </a>
 
 </div>
