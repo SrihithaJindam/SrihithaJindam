@@ -33,16 +33,9 @@
 
 <br/><br/>
 
-<!-- 📈 INSTANT ONLINE ACTIVITY GRAPH (Matches Yellow/Orange/Red Theme) -->
+<!-- 🕸️ EASY INSTANT RADAR CHART (Commits, PRs, Issues, Reviews) -->
 <a href="https://github.com/SrihithaJindam">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SrihithaJindam&bg_color=0d1117&color=ffeb3b&line=ff9800&point=f44336&area=true&hide_border=true&radius=10" width="95%" alt="Contributions Velocity Curve" />
-</a>
-
-<br/><br/>
-
-<!-- 📊 INSTANT GITHUB STATS SUMMARY -->
-<a href="https://github.com/SrihithaJindam">
-  <img src="https://github-readme-stats.vercel.app/api?username=SrihithaJindam&show_icons=true&bg_color=0d1117&title_color=ff9800&text_color=ffffff&icon_color=ffeb3b&hide_border=true&count_private=true" width="90%" alt="GitHub Stats Summary" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SrihithaJindam&theme=dark" width="85%" alt="Contribution Radar Graphic" />
 </a>
 
 </div>
