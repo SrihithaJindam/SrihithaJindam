@@ -1,13 +1,13 @@
 <div align="center">
 
-<!-- 🔥 DYNAMIC WARM AMBER / SUNSET BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,16,21&height=220&section=header&text=Srihitha%20Jindam&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Agentic%20AI%20%7C%20Data%20Analytics%20%7C%20Deep%20Learning&descFontSize=20&descAlignY=60&descAlign=50" width="100%" />
+<!-- 🌅 RADIANT SUNSET GRADIENT BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=18,22,26&height=220&section=header&text=Srihitha%20Jindam&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Agentic%20AI%20%7C%20Data%20Analytics%20%7C%20Deep%20Learning&descFontSize=20&descAlignY=60&descAlign=50" width="100%" />
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-FF8C00?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/srihithajindam)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://srihitha.graspins.com)
-[![Email](https://img.shields.io/badge/Email-E65100?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srihithajindam1402@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-FF7043?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/srihithajindam)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FFA726?style=for-the-badge&logo=google-chrome&logoColor=white)](https://srihitha.graspins.com)
+[![Email](https://img.shields.io/badge/Email-FF5252?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srihithajindam1402@gmail.com)
 
 </div>
 
@@ -28,21 +28,19 @@
 
 <!-- 🔥 ORANGE STREAK CARD -->
 <a href="https://github.com/SrihithaJindam">
-  <img src="https://streak-stats.demolab.com?user=SrihithaJindam&theme=dark&ring=FF9100&fire=FF5500&currStreakNum=FF9100&currStreakLabel=FFA726&sideNums=FFB74D&sideLabels=FFA726&dates=B0BEC5&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D&timezone=Europe%2FBerlin" alt="GitHub Streak" width="85%" />
+  <img src="https://streak-stats.demolab.com?user=SrihithaJindam&theme=dark&ring=FF7043&fire=FF5252&currStreakNum=FF7043&currStreakLabel=FFA726&sideNums=FFA726&sideLabels=FFB74D&dates=90A4AE&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D&timezone=Europe%2FBerlin" alt="GitHub Streak" width="85%" />
 </a>
 
 <br/><br/>
 
-<!-- 🕸️ SPIDER WEB / RADAR ACTIVITY CARD -->
-<a href="https://github.com/SrihithaJindam">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SrihithaJindam&theme=solarized-dark" width="90%" alt="Contribution Radar and Activity" />
-</a>
+<!-- 🌈 3D ISOMETRIC CALENDAR + SPIDER WEB RADAR CHART (Commits, Issues, PRs, Reviews, Repos) -->
+<img src="./profile-3d-contrib/profile-night-rainbow.svg" width="95%" alt="3D Isometric Contributions and Spider Radar" />
 
 <br/><br/>
 
-<!-- 🌈 3D ISOMETRIC CONTRIBUTION STRIP -->
+<!-- 📈 CLEAN DARK CONTRIBUTIONS PROFILE DETAILS (With Fixed Name & Dark Palette) -->
 <a href="https://github.com/SrihithaJindam">
-  <img src="https://github-profile-trophy.vercel.app/?username=SrihithaJindam&theme=matrix&row=1&column=6&no-bg=true&margin-w=4" width="95%" alt="Profile Achievements" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SrihithaJindam&name=Srihitha%20Jindam&theme=solarized-dark&bg_color=0d1117&title_color=FFA726&text_color=ECEFF1&chart_color=FF7043" width="90%" alt="Contributions Velocity Curve" />
 </a>
 
 </div>
@@ -53,9 +51,9 @@
 
 <p align="left">
   <b>Agentic AI & GenAI:</b><br/>
-  <img src="https://img.shields.io/badge/LLMs%20%26%20RAG-FF6D00?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-FF7900?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/Autonomous_Agents-FF8500?style=for-the-badge&logo=robot&logoColor=white" />
+  <img src="https://img.shields.io/badge/LLMs%20%26%20RAG-FF5722?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-FF7043?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/Autonomous_Agents-FF8A65?style=for-the-badge&logo=robot&logoColor=white" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
   <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
 </p>
@@ -63,7 +61,7 @@
 <p align="left">
   <b>Data Analytics & Engineering:</b><br/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL%20%2F%20MS_SQL-FF9100?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL%20%2F%20MS_SQL-FF9800?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
   <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
   <img src="https://img.shields.io/badge/R_Programming-276DC3?style=for-the-badge&logo=r&logoColor=white" />
