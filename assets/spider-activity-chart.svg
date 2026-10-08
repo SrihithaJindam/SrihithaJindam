@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="200" viewBox="0 0 700 200">
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="220" viewBox="0 0 700 220">
     <defs>
         <linearGradient id="spiderOutline" x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%" stop-color="#ffeb3b" />
@@ -12,91 +12,95 @@
         }
     </style>
 
-    <!-- Card Background exactly matching profile-details card -->
-    <rect x="1" y="1" rx="5" ry="5" width="99.7%" height="99%" fill="#151515" stroke="#000000" stroke-width="1" stroke-opacity="0" />
+    <!-- Card Background -->
+    <rect x="1" y="1" rx="6" ry="6" width="99.7%" height="99%" fill="#151515" stroke="#262c36" stroke-width="1" />
 
-    <!-- Title on Left -->
-    <text x="30" y="40" font-size="22px" font-weight="600" fill="#ffffff">Activity Radar</text>
+    <!-- Left Header -->
+    <text x="35" y="38" font-size="20px" font-weight="700" fill="#ffffff">Activity Radar</text>
+    <text x="35" y="56" font-size="11px" fill="#8b949e">Cross-repository contribution distribution</text>
 
-    <!-- Stats breakdown on Left -->
-    <g transform="translate(30, 60)">
+    <!-- Stats Breakdown on Left -->
+    <g transform="translate(35, 70)">
         <!-- Commits -->
         <g transform="translate(0, 10)">
             <circle cx="5" cy="5" r="4" fill="#ff9800" />
             <text x="18" y="9" fill="#9f9f9f" font-size="13px">Total Commits:</text>
-            <text x="160" y="9" fill="#ffffff" font-size="13px" font-weight="600">102</text>
+            <text x="155" y="9" fill="#ffffff" font-size="13px" font-weight="600">102</text>
         </g>
         <!-- PRs -->
-        <g transform="translate(0, 32)">
+        <g transform="translate(0, 34)">
             <circle cx="5" cy="5" r="4" fill="#ffb74d" />
             <text x="18" y="9" fill="#9f9f9f" font-size="13px">Pull Requests:</text>
-            <text x="160" y="9" fill="#ffffff" font-size="13px" font-weight="600">32</text>
+            <text x="155" y="9" fill="#ffffff" font-size="13px" font-weight="600">32</text>
         </g>
         <!-- Issues -->
-        <g transform="translate(0, 54)">
+        <g transform="translate(0, 58)">
             <circle cx="5" cy="5" r="4" fill="#f44336" />
             <text x="18" y="9" fill="#9f9f9f" font-size="13px">Issues Opened:</text>
-            <text x="160" y="9" fill="#ffffff" font-size="13px" font-weight="600">2</text>
+            <text x="155" y="9" fill="#ffffff" font-size="13px" font-weight="600">2</text>
         </g>
         <!-- Contributed Repos -->
-        <g transform="translate(0, 76)">
+        <g transform="translate(0, 82)">
             <circle cx="5" cy="5" r="4" fill="#ffeb3b" />
             <text x="18" y="9" fill="#9f9f9f" font-size="13px">Contributed Repos:</text>
-            <text x="160" y="9" fill="#ffffff" font-size="13px" font-weight="600">15</text>
+            <text x="155" y="9" fill="#ffffff" font-size="13px" font-weight="600">15</text>
         </g>
         <!-- Code Reviews -->
-        <g transform="translate(0, 98)">
+        <g transform="translate(0, 106)">
             <circle cx="5" cy="5" r="4" fill="#ff7043" />
             <text x="18" y="9" fill="#9f9f9f" font-size="13px">Code Reviews:</text>
-            <text x="160" y="9" fill="#ffffff" font-size="13px" font-weight="600">6</text>
+            <text x="155" y="9" fill="#ffffff" font-size="13px" font-weight="600">6</text>
         </g>
     </g>
+
+    <!-- Subtle Center Divider -->
+    <line x1="255" y1="25" x2="255" y2="195" stroke="#22272e" stroke-width="1" stroke-dasharray="3,3" />
 
     <!-- Radar Spider Grid on Right -->
     <g>
-        <polygon points="495.0,88.8 510.5,100.0 504.6,118.1 485.4,118.1 479.5,100.0" fill="none" stroke="#22272e" stroke-width="1" stroke-dasharray="2,2" /><polygon points="495.0,72.5 525.9,95.0 514.1,131.3 475.9,131.3 464.1,95.0" fill="none" stroke="#22272e" stroke-width="1" stroke-dasharray="2,2" /><polygon points="495.0,56.2 541.4,89.9 523.7,144.4 466.3,144.4 448.6,89.9" fill="none" stroke="#22272e" stroke-width="1" stroke-dasharray="2,2" /><polygon points="495.0,40.0 556.8,84.9 533.2,157.6 456.8,157.6 433.2,84.9" fill="none" stroke="#30363d" stroke-width="1"  />
-        <line x1="495" y1="105" x2="495.0" y2="40.0" stroke="#262c36" stroke-width="1" /><line x1="495" y1="105" x2="556.8" y2="84.9" stroke="#262c36" stroke-width="1" /><line x1="495" y1="105" x2="533.2" y2="157.6" stroke="#262c36" stroke-width="1" /><line x1="495" y1="105" x2="456.8" y2="157.6" stroke="#262c36" stroke-width="1" /><line x1="495" y1="105" x2="433.2" y2="84.9" stroke="#262c36" stroke-width="1" />
+        <polygon points="485.0,97.0 501.2,108.7 495.0,127.8 475.0,127.8 468.8,108.7" fill="none" stroke="#22272e" stroke-width="1" stroke-dasharray="2.5,2.5" /><polygon points="485.0,80.0 517.3,103.5 505.0,141.5 465.0,141.5 452.7,103.5" fill="none" stroke="#22272e" stroke-width="1" stroke-dasharray="2.5,2.5" /><polygon points="485.0,63.0 533.5,98.2 515.0,155.3 455.0,155.3 436.5,98.2" fill="none" stroke="#22272e" stroke-width="1" stroke-dasharray="2.5,2.5" /><polygon points="485.0,46.0 549.7,93.0 525.0,169.0 445.0,169.0 420.3,93.0" fill="none" stroke="#30363d" stroke-width="1"  />
+        <line x1="485" y1="114" x2="485.0" y2="46.0" stroke="#282f38" stroke-width="1.2" /><line x1="485" y1="114" x2="549.7" y2="93.0" stroke="#282f38" stroke-width="1.2" /><line x1="485" y1="114" x2="525.0" y2="169.0" stroke="#282f38" stroke-width="1.2" /><line x1="485" y1="114" x2="445.0" y2="169.0" stroke="#282f38" stroke-width="1.2" /><line x1="485" y1="114" x2="420.3" y2="93.0" stroke="#282f38" stroke-width="1.2" />
     </g>
 
     <!-- Color Outlined Graph (Soft transparent tint + crisp outline) -->
-    <polygon points="495.0,46.5 539.5,90.5 517.9,136.6 479.0,127.1 475.2,98.6" fill="rgba(255, 152, 0, 0.08)" stroke="url(#spiderOutline)" stroke-width="2" stroke-linejoin="round" />
+    <polygon points="485.0,54.2 531.6,98.9 509.0,147.0 468.2,137.1 464.3,107.3" fill="rgba(255, 152, 0, 0.06)" stroke="url(#spiderOutline)" stroke-width="2.2" stroke-linejoin="round" />
     
-        <circle cx="495.0" cy="46.5" r="3.5" fill="#ff9800" stroke="#ffffff" stroke-width="1" />
+        <circle cx="485.0" cy="54.2" r="4" fill="#ff9800" stroke="#ffffff" stroke-width="1.2" />
         
-        <circle cx="539.5" cy="90.5" r="3.5" fill="#ff9800" stroke="#ffffff" stroke-width="1" />
+        <circle cx="531.6" cy="98.9" r="4" fill="#ff9800" stroke="#ffffff" stroke-width="1.2" />
         
-        <circle cx="517.9" cy="136.6" r="3.5" fill="#ff9800" stroke="#ffffff" stroke-width="1" />
+        <circle cx="509.0" cy="147.0" r="4" fill="#ff9800" stroke="#ffffff" stroke-width="1.2" />
         
-        <circle cx="479.0" cy="127.1" r="3.5" fill="#ff9800" stroke="#ffffff" stroke-width="1" />
+        <circle cx="468.2" cy="137.1" r="4" fill="#ff9800" stroke="#ffffff" stroke-width="1.2" />
         
-        <circle cx="475.2" cy="98.6" r="3.5" fill="#ff9800" stroke="#ffffff" stroke-width="1" />
+        <circle cx="464.3" cy="107.3" r="4" fill="#ff9800" stroke="#ffffff" stroke-width="1.2" />
         
 
     <!-- Labels around Radar -->
     <g>
         
-        <text x="495.0" y="30.0" text-anchor="middle" fill="#ffb74d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="10.5px" font-weight="600">
-            Commits
+        <text x="485.0" y="34.0" text-anchor="middle" fill="#ffb74d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11px" font-weight="600">
+            Commits (102)
         </text>
         
-        <text x="573.1" y="81.2" text-anchor="start" fill="#ffb74d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="10.5px" font-weight="600">
-            PRs
+        <text x="566.9" y="88.7" text-anchor="start" fill="#ffb74d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11px" font-weight="600">
+            PRs (32)
         </text>
         
-        <text x="544.0" y="167.3" text-anchor="start" fill="#ffb74d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="10.5px" font-weight="600">
-            Contributed
+        <text x="536.4" y="180.3" text-anchor="start" fill="#ffb74d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11px" font-weight="600">
+            Contributed (15)
         </text>
         
-        <text x="446.0" y="167.3" text-anchor="end" fill="#ffb74d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="10.5px" font-weight="600">
-            Reviews
+        <text x="433.6" y="180.3" text-anchor="end" fill="#ffb74d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11px" font-weight="600">
+            Reviews (6)
         </text>
         
-        <text x="416.9" y="81.2" text-anchor="end" fill="#ffb74d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="10.5px" font-weight="600">
-            Issues
+        <text x="403.1" y="88.7" text-anchor="end" fill="#ffb74d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11px" font-weight="600">
+            Issues (2)
         </text>
         
     </g>
 
     <!-- Radar Sub-caption -->
-    <text x="495" y="190" text-anchor="middle" fill="#9f9f9f" font-size="10px">cross-repo activity</text>
+    <text x="485" y="206" text-anchor="middle" fill="#8b949e" font-size="10px">multi-dimensional contribution footprint</text>
 </svg>

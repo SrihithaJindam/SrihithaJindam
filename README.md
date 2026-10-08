@@ -33,12 +33,16 @@
 
 <br/><br/>
 
-<!-- 🕸️ SPIDER WEB RADAR & 📈 TOTAL CONTRIBUTIONS LAST YEAR (SIDE BY SIDE) -->
+<!-- 🕸️ SPIDER WEB ACTIVITY RADAR CHART -->
 <a href="https://github.com/SrihithaJindam">
-  <img src="./assets/spider-activity-chart.svg" width="49%" alt="Contribution & Activity Spider Radar Chart" />
+  <img src="./assets/spider-activity-chart.svg" width="85%" alt="Contribution & Activity Spider Radar Chart" />
 </a>
+
+<br/><br/>
+
+<!-- 📈 TOTAL CONTRIBUTIONS & VELOCITY CURVE -->
 <a href="https://github.com/SrihithaJindam">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SrihithaJindam&theme=dark&name=Srihitha%20Jindam" width="49%" alt="Total Contributions & Activity Curve" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SrihithaJindam&theme=dark&name=Srihitha%20Jindam" width="85%" alt="Total Contributions & Activity Curve" />
 </a>
 
 </div>
