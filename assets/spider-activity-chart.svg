@@ -1,86 +1,102 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="200" viewBox="0 0 700 200">
     <defs>
-        <linearGradient id="spiderGradient" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" stop-color="#ff9800" stop-opacity="0.6" />
-            <stop offset="50%" stop-color="#f44336" stop-opacity="0.45" />
-            <stop offset="100%" stop-color="#ffeb3b" stop-opacity="0.3" />
-        </linearGradient>
-        <filter id="spiderGlow" x="-20%" y="-20%" width="140%" height="140%">
-            <feGaussianBlur stdDeviation="3.5" result="blur" />
-            <feComposite in="SourceGraphic" in2="blur" operator="over" />
-        </filter>
-        <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+        <linearGradient id="spiderOutline" x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%" stop-color="#ffeb3b" />
             <stop offset="50%" stop-color="#ff9800" />
             <stop offset="100%" stop-color="#f44336" />
         </linearGradient>
     </defs>
+    <style>
+        * {
+            font-family: 'Segoe UI', Ubuntu, "Helvetica Neue", Sans-Serif;
+        }
+    </style>
 
-    <!-- Card Background -->
-    <rect x="1" y="1" width="638" height="358" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1" />
+    <!-- Card Background exactly matching profile-details card -->
+    <rect x="1" y="1" rx="5" ry="5" width="99.7%" height="99%" fill="#151515" stroke="#000000" stroke-width="1" stroke-opacity="0" />
 
-    <!-- Title Header -->
-    <g transform="translate(25, 32)">
-        <text fill="url(#titleGrad)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="16px" font-weight="700">
-            🕸️ Activity &amp; Contribution Radar
-        </text>
-        <text y="18" fill="#8b949e" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="11.5px">
-            Cross-repository distribution: Commits, Pull Requests, Issues, and Reviews
-        </text>
+    <!-- Title on Left -->
+    <text x="30" y="40" font-size="22px" font-weight="600" fill="#ffffff">Activity Radar</text>
+
+    <!-- Stats breakdown on Left -->
+    <g transform="translate(30, 60)">
+        <!-- Commits -->
+        <g transform="translate(0, 10)">
+            <circle cx="5" cy="5" r="4" fill="#ff9800" />
+            <text x="18" y="9" fill="#9f9f9f" font-size="13px">Total Commits:</text>
+            <text x="160" y="9" fill="#ffffff" font-size="13px" font-weight="600">102</text>
+        </g>
+        <!-- PRs -->
+        <g transform="translate(0, 32)">
+            <circle cx="5" cy="5" r="4" fill="#ffb74d" />
+            <text x="18" y="9" fill="#9f9f9f" font-size="13px">Pull Requests:</text>
+            <text x="160" y="9" fill="#ffffff" font-size="13px" font-weight="600">32</text>
+        </g>
+        <!-- Issues -->
+        <g transform="translate(0, 54)">
+            <circle cx="5" cy="5" r="4" fill="#f44336" />
+            <text x="18" y="9" fill="#9f9f9f" font-size="13px">Issues Opened:</text>
+            <text x="160" y="9" fill="#ffffff" font-size="13px" font-weight="600">2</text>
+        </g>
+        <!-- Contributed Repos -->
+        <g transform="translate(0, 76)">
+            <circle cx="5" cy="5" r="4" fill="#ffeb3b" />
+            <text x="18" y="9" fill="#9f9f9f" font-size="13px">Contributed Repos:</text>
+            <text x="160" y="9" fill="#ffffff" font-size="13px" font-weight="600">15</text>
+        </g>
+        <!-- Code Reviews -->
+        <g transform="translate(0, 98)">
+            <circle cx="5" cy="5" r="4" fill="#ff7043" />
+            <text x="18" y="9" fill="#9f9f9f" font-size="13px">Code Reviews:</text>
+            <text x="160" y="9" fill="#ffffff" font-size="13px" font-weight="600">6</text>
+        </g>
     </g>
 
-    <!-- Spider Grid Lines & Web -->
+    <!-- Radar Spider Grid on Right -->
     <g>
-        <polygon points="320.0,166.2 347.3,186.1 336.9,218.3 303.1,218.3 292.7,186.1" fill="none" stroke="#21262d" stroke-width="1.2" stroke-dasharray="3,3" /><polygon points="320.0,137.5 374.7,177.2 353.8,241.5 286.2,241.5 265.3,177.2" fill="none" stroke="#21262d" stroke-width="1.2" stroke-dasharray="3,3" /><polygon points="320.0,108.8 402.0,168.3 370.7,264.8 269.3,264.8 238.0,168.3" fill="none" stroke="#21262d" stroke-width="1.2" stroke-dasharray="3,3" /><polygon points="320.0,80.0 429.4,159.5 387.6,288.0 252.4,288.0 210.6,159.5" fill="none" stroke="#30363d" stroke-width="1.2"  />
-        <line x1="320" y1="195" x2="320.0" y2="80.0" stroke="#30363d" stroke-width="1.5" /><line x1="320" y1="195" x2="429.4" y2="159.5" stroke="#30363d" stroke-width="1.5" /><line x1="320" y1="195" x2="387.6" y2="288.0" stroke="#30363d" stroke-width="1.5" /><line x1="320" y1="195" x2="252.4" y2="288.0" stroke="#30363d" stroke-width="1.5" /><line x1="320" y1="195" x2="210.6" y2="159.5" stroke="#30363d" stroke-width="1.5" />
+        <polygon points="495.0,88.8 510.5,100.0 504.6,118.1 485.4,118.1 479.5,100.0" fill="none" stroke="#22272e" stroke-width="1" stroke-dasharray="2,2" /><polygon points="495.0,72.5 525.9,95.0 514.1,131.3 475.9,131.3 464.1,95.0" fill="none" stroke="#22272e" stroke-width="1" stroke-dasharray="2,2" /><polygon points="495.0,56.2 541.4,89.9 523.7,144.4 466.3,144.4 448.6,89.9" fill="none" stroke="#22272e" stroke-width="1" stroke-dasharray="2,2" /><polygon points="495.0,40.0 556.8,84.9 533.2,157.6 456.8,157.6 433.2,84.9" fill="none" stroke="#30363d" stroke-width="1"  />
+        <line x1="495" y1="105" x2="495.0" y2="40.0" stroke="#262c36" stroke-width="1" /><line x1="495" y1="105" x2="556.8" y2="84.9" stroke="#262c36" stroke-width="1" /><line x1="495" y1="105" x2="533.2" y2="157.6" stroke="#262c36" stroke-width="1" /><line x1="495" y1="105" x2="456.8" y2="157.6" stroke="#262c36" stroke-width="1" /><line x1="495" y1="105" x2="433.2" y2="84.9" stroke="#262c36" stroke-width="1" />
     </g>
 
-    <!-- Glowing Polygon Area -->
-    <polygon points="320.0,93.8 398.7,169.4 359.2,249.0 293.0,232.2 287.2,184.3" fill="url(#spiderGradient)" stroke="#ff9800" stroke-width="2.2" filter="url(#spiderGlow)" />
+    <!-- Color Outlined Graph (Soft transparent tint + crisp outline) -->
+    <polygon points="495.0,46.5 539.5,90.5 517.9,136.6 479.0,127.1 475.2,98.6" fill="rgba(255, 152, 0, 0.08)" stroke="url(#spiderOutline)" stroke-width="2" stroke-linejoin="round" />
     
-        <circle cx="320.0" cy="93.8" r="5" fill="#f44336" stroke="#ffffff" stroke-width="1.5">
-            <animate attributeName="r" values="4.5;6;4.5" dur="2.5s" repeatCount="indefinite" />
-        </circle>
+        <circle cx="495.0" cy="46.5" r="3.5" fill="#ff9800" stroke="#ffffff" stroke-width="1" />
         
-        <circle cx="398.7" cy="169.4" r="5" fill="#f44336" stroke="#ffffff" stroke-width="1.5">
-            <animate attributeName="r" values="4.5;6;4.5" dur="2.5s" repeatCount="indefinite" />
-        </circle>
+        <circle cx="539.5" cy="90.5" r="3.5" fill="#ff9800" stroke="#ffffff" stroke-width="1" />
         
-        <circle cx="359.2" cy="249.0" r="5" fill="#f44336" stroke="#ffffff" stroke-width="1.5">
-            <animate attributeName="r" values="4.5;6;4.5" dur="2.5s" repeatCount="indefinite" />
-        </circle>
+        <circle cx="517.9" cy="136.6" r="3.5" fill="#ff9800" stroke="#ffffff" stroke-width="1" />
         
-        <circle cx="293.0" cy="232.2" r="5" fill="#f44336" stroke="#ffffff" stroke-width="1.5">
-            <animate attributeName="r" values="4.5;6;4.5" dur="2.5s" repeatCount="indefinite" />
-        </circle>
+        <circle cx="479.0" cy="127.1" r="3.5" fill="#ff9800" stroke="#ffffff" stroke-width="1" />
         
-        <circle cx="287.2" cy="184.3" r="5" fill="#f44336" stroke="#ffffff" stroke-width="1.5">
-            <animate attributeName="r" values="4.5;6;4.5" dur="2.5s" repeatCount="indefinite" />
-        </circle>
+        <circle cx="475.2" cy="98.6" r="3.5" fill="#ff9800" stroke="#ffffff" stroke-width="1" />
         
 
-    <!-- Category Labels -->
+    <!-- Labels around Radar -->
     <g>
         
-        <text x="320.0" y="60.0" text-anchor="middle" fill="#ffb74d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13px" font-weight="600">
-            Commits (102)
+        <text x="495.0" y="30.0" text-anchor="middle" fill="#ffb74d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="10.5px" font-weight="600">
+            Commits
         </text>
         
-        <text x="464.0" y="153.3" text-anchor="start" fill="#ffb74d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13px" font-weight="600">
-            PRs (32)
+        <text x="573.1" y="81.2" text-anchor="start" fill="#ffb74d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="10.5px" font-weight="600">
+            PRs
         </text>
         
-        <text x="412.1" y="304.2" text-anchor="start" fill="#ffb74d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13px" font-weight="600">
-            Contributed Repos (15)
+        <text x="544.0" y="167.3" text-anchor="start" fill="#ffb74d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="10.5px" font-weight="600">
+            Contributed
         </text>
         
-        <text x="227.9" y="304.2" text-anchor="end" fill="#ffb74d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13px" font-weight="600">
-            Code Reviews (6)
+        <text x="446.0" y="167.3" text-anchor="end" fill="#ffb74d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="10.5px" font-weight="600">
+            Reviews
         </text>
         
-        <text x="176.0" y="153.3" text-anchor="end" fill="#ffb74d" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="13px" font-weight="600">
-            Issues (2)
+        <text x="416.9" y="81.2" text-anchor="end" fill="#ffb74d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="10.5px" font-weight="600">
+            Issues
         </text>
         
     </g>
+
+    <!-- Radar Sub-caption -->
+    <text x="495" y="190" text-anchor="middle" fill="#9f9f9f" font-size="10px">cross-repo activity</text>
 </svg>
