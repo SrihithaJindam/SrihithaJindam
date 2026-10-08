@@ -7,33 +7,34 @@
 [![Portfolio](https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=google-chrome&logoColor=white)](https://srihitha.graspins.com)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srihithajindam1402@gmail.com)
 
-<br/><br/>
-
-<!-- 🔥 CURRENT STREAK & TOTAL CONTRIBUTIONS -->
-<a href="https://github.com/SrihithaJindam">
-  <img src="https://streak-stats.demolab.com?user=SrihithaJindam&theme=tokyonight&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D&timezone=Europe%2FBerlin&hide_longest_streak=true&cache_seconds=1800&v=3" alt="GitHub Streak" width="85%" />
-</a>
-
-<br/><br/>
-
-<!-- 📊 GITHUB OVERALL STATS & CLEAN TOP LANGUAGES -->
-<a href="https://github.com/SrihithaJindam">
-  <img src="https://github-readme-stats.vercel.app/api?username=SrihithaJindam&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" width="48.5%" />
-</a>
-<a href="https://github.com/SrihithaJindam">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SrihithaJindam&layout=compact&theme=tokyonight&hide_border=true&hide=jupyter%20notebook,html,css,scss" width="48.5%" />
-</a>
-
 </div>
 
 ---
 
-### 🧠 Core Focus & Research
+### 🧠 About Me
 
-- 🎓 **MS in Artificial Intelligence** at Brandenburg University of Technology (BTU Cottbus-Senftenberg)[cite: 1]
+- 🎓 **MS in Artificial Intelligence** at Brandenburg University of Technology (BTU Cottbus-Senftenberg)
 - 🤖 **Agentic & Generative AI:** Engineering autonomous decision agents, multi-agent systems, and RAG pipelines[cite: 1].
 - 📊 **Energy & Market Data Analytics:** Engineering automated data pipelines and analytical dashboards for European electricity market intelligence[cite: 1].
 - 🔬 **Statistical Deep Learning:** Researching multi-modal sensor fusion (CoAtNets) and autoencoders for time-series anomaly detection[cite: 1].
+
+---
+
+### 🔥 GitHub Streak & Contribution Summary
+
+<div align="center">
+
+<!-- Streak Card (Total Contributions, Current Streak, Longest Streak) -->
+<a href="https://github.com/SrihithaJindam">
+  <img src="https://streak-stats.demolab.com?user=SrihithaJindam&theme=tokyonight&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D&timezone=Europe%2FBerlin" alt="GitHub Streak" width="85%" />
+</a>
+
+<br/><br/>
+
+<!-- 3D Contribution Graph + Activity Radar Profile Summary -->
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SrihithaJindam&theme=tokyonight" width="95%" alt="Profile Details Radar and Contribution Summary" />
+
+</div>
 
 ---
 
@@ -81,5 +82,5 @@
 ---
 
 <div align="center">
-  <sub>⚡ Consistency drives intelligence. Active daily contributor to open-source & agent systems.</sub>
+  <sub>⚡ Consistency drives intelligence. Continuous daily updates across AI and data engineering projects.</sub>
 </div>
