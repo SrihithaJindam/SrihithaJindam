@@ -33,9 +33,23 @@
 
 <br/><br/>
 
-<!-- 🕸️ EASY INSTANT RADAR CHART (Commits, PRs, Issues, Reviews) -->
+<!-- 🕸️ SPIDER WEB ACTIVITY RADAR CHART -->
 <a href="https://github.com/SrihithaJindam">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SrihithaJindam&theme=dark" width="85%" alt="Contribution Radar Graphic" />
+  <img src="./assets/spider-activity-chart.svg" width="85%" alt="Contribution & Activity Spider Radar Chart" />
+</a>
+
+<br/><br/>
+
+<!-- 📊 GITHUB STATS SUMMARY (Commits, PRs, Issues, Stars) -->
+<a href="https://github.com/SrihithaJindam">
+  <img src="https://github-readme-stats.vercel.app/api?username=SrihithaJindam&show_icons=true&bg_color=0d1117&title_color=ff9800&text_color=ffffff&icon_color=ffeb3b&border_color=f44336&hide_border=true&count_private=true" width="85%" alt="GitHub Stats Summary" />
+</a>
+
+<br/><br/>
+
+<!-- 📈 CONTRIBUTIONS VELOCITY CURVE -->
+<a href="https://github.com/SrihithaJindam">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SrihithaJindam&theme=dark" width="85%" alt="Contribution Profile Details" />
 </a>
 
 </div>
