@@ -1,13 +1,13 @@
 <div align="center">
 
-<!-- 🌌 DYNAMIC NEON HEADER BANNER -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,12,30&height=220&section=header&text=Srihitha%20Jindam&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Agentic%20AI%20%7C%20Data%20Analytics%20%7C%20Deep%20Learning&descFontSize=20&descAlignY=60&descAlign=50" width="100%" />
+<!-- 🔥 DYNAMIC WARM AMBER / SUNSET BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,16,21&height=220&section=header&text=Srihitha%20Jindam&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Agentic%20AI%20%7C%20Data%20Analytics%20%7C%20Deep%20Learning&descFontSize=20&descAlignY=60&descAlign=50" width="100%" />
 
 <br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/srihithajindam)
-[![Portfolio](https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=google-chrome&logoColor=white)](https://srihitha.graspins.com)
-[![Email](https://img.shields.io/badge/Email-EC4899?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srihithajindam1402@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-FF8C00?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/srihithajindam)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://srihitha.graspins.com)
+[![Email](https://img.shields.io/badge/Email-E65100?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srihithajindam1402@gmail.com)
 
 </div>
 
@@ -15,10 +15,10 @@
 
 ### 🧠 About Me
 
-- 🎓 **MS in Artificial Intelligence** at Brandenburg University of Technology (BTU Cottbus-Senftenberg)[cite: 1]
-- 🤖 **Agentic & Generative AI:** Engineering autonomous decision agents, multi-agent systems, and RAG pipelines[cite: 1]
-- 📊 **Energy & Market Data Analytics:** Engineering automated data pipelines and analytical dashboards for European electricity market intelligence[cite: 1]
-- 🔬 **Statistical Deep Learning:** Researching multi-modal sensor fusion (CoAtNets) and autoencoders for time-series anomaly detection[cite: 1]
+- 🎓 **MS in Artificial Intelligence** at Brandenburg University of Technology (BTU Cottbus-Senftenberg)
+- 🤖 **Agentic & Generative AI:** Engineering autonomous decision agents, multi-agent systems, and RAG pipelines
+- 📊 **Energy & Market Data Analytics:** Engineering automated data pipelines and analytical dashboards for European electricity market intelligence
+- 🔬 **Statistical Deep Learning:** Researching multi-modal sensor fusion (CoAtNets) and autoencoders for time-series anomaly detection
 
 ---
 
@@ -26,16 +26,23 @@
 
 <div align="center">
 
-<!-- 🔥 STREAK CARD (Total, Current, Longest with Gold Theme) -->
+<!-- 🔥 ORANGE STREAK CARD -->
 <a href="https://github.com/SrihithaJindam">
-  <img src="https://streak-stats.demolab.com?user=SrihithaJindam&theme=radical&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D&timezone=Europe%2FBerlin" alt="GitHub Streak" width="85%" />
+  <img src="https://streak-stats.demolab.com?user=SrihithaJindam&theme=dark&ring=FF9100&fire=FF5500&currStreakNum=FF9100&currStreakLabel=FFA726&sideNums=FFB74D&sideLabels=FFA726&dates=B0BEC5&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D&timezone=Europe%2FBerlin" alt="GitHub Streak" width="85%" />
 </a>
 
 <br/><br/>
 
-<!-- 🕸️ SPIDER WEB / RADAR ACTIVITY METRIC -->
+<!-- 🕸️ SPIDER WEB / RADAR ACTIVITY CARD -->
 <a href="https://github.com/SrihithaJindam">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SrihithaJindam&theme=radical" width="90%" alt="Contribution Radar and Activity" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SrihithaJindam&theme=solarized-dark" width="90%" alt="Contribution Radar and Activity" />
+</a>
+
+<br/><br/>
+
+<!-- 🌈 3D ISOMETRIC CONTRIBUTION STRIP -->
+<a href="https://github.com/SrihithaJindam">
+  <img src="https://github-profile-trophy.vercel.app/?username=SrihithaJindam&theme=matrix&row=1&column=6&no-bg=true&margin-w=4" width="95%" alt="Profile Achievements" />
 </a>
 
 </div>
@@ -46,17 +53,17 @@
 
 <p align="left">
   <b>Agentic AI & GenAI:</b><br/>
-  <img src="https://img.shields.io/badge/LLMs%20%26%20RAG-8B5CF6?style=for-the-badge&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-10B981?style=for-the-badge&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/Autonomous_Agents-EC4899?style=for-the-badge&logo=robot&logoColor=white" />
+  <img src="https://img.shields.io/badge/LLMs%20%26%20RAG-FF6D00?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-FF7900?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/Autonomous_Agents-FF8500?style=for-the-badge&logo=robot&logoColor=white" />
   <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-F59E0B?style=for-the-badge&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
 </p>
 
 <p align="left">
   <b>Data Analytics & Engineering:</b><br/>
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL%20%2F%20MS_SQL-0284C7?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL%20%2F%20MS_SQL-FF9100?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
   <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
   <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
   <img src="https://img.shields.io/badge/R_Programming-276DC3?style=for-the-badge&logo=r&logoColor=white" />
@@ -78,13 +85,13 @@
 | Project / System | Tech Focus | Key Deliverable | Link |
 | :--- | :--- | :--- | :---: |
 | **Agent Decision Router** | `Agentic AI` `Python` `Decision Logic` | Dynamic task-delegation and routing pipeline for automated LLM workflows. | [Repository](https://github.com/SrihithaJindam/agent-decision-router) |
-| **RAG Knowledge Retrieval**[cite: 1] | `RAG` `GenAI` `Vector Search`[cite: 1] | Fast and accurate document retrieval pipeline built for specialized knowledge bases[cite: 1]. | [Codebase](https://github.com/SrihithaJindam) |
-| **XB Liquidity Analysis** | `Data Analytics` `Financial Modeling` | Statistical modeling and pipeline automation for liquidity & energy market metrics[cite: 1]. | [Repository](https://github.com/SrihithaJindam50/XB_liquidity) |
-| **Space Object Recognition**[cite: 2] | `Multimodal Fusion` `CoAtNets`[cite: 2] | Deep learning framework combining RGB and Depth data, achieving 92% classification accuracy[cite: 2]. | [Publication](https://srihitha.graspins.com) |
-| **Meteorological Anomaly Detection**[cite: 1] | `Autoencoders` `k-NN` `Time-Series`[cite: 1] | Early warning disaster detection for extreme weather patterns using deep autoencoders[cite: 1]. | [Repository](https://github.com/SrihithaJindam) |
+| **RAG Knowledge Retrieval** | `RAG` `GenAI` `Vector Search` | Fast and accurate document retrieval pipeline built for specialized knowledge bases. | [Codebase](https://github.com/SrihithaJindam) |
+| **XB Liquidity Analysis** | `Data Analytics` `Financial Modeling` | Statistical modeling and pipeline automation for liquidity & energy market metrics. | [Repository](https://github.com/SrihithaJindam50/XB_liquidity) |
+| **Space Object Recognition** | `Multimodal Fusion` `CoAtNets` | Deep learning framework combining RGB and Depth data, achieving 92% classification accuracy. | [Publication](https://srihitha.graspins.com) |
+| **Meteorological Anomaly Detection** | `Autoencoders` `k-NN` `Time-Series` | Early warning disaster detection for extreme weather patterns using deep autoencoders. | [Repository](https://github.com/SrihithaJindam) |
 
 ---
 
 <div align="center">
-  <sub>⚡ Consistency drives intelligence. Every commit counts towards building robust systems.</sub>
+  <sub>⚡ Consistency drives intelligence. Every commit counts towards building intelligent systems.</sub>
 </div>
