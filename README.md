@@ -1,11 +1,13 @@
 <div align="center">
 
-# ✦ Srihitha Jindam ✦
-### Agentic AI • Generative AI & LLMs • Data Analytics
+<!-- 🌌 DYNAMIC NEON HEADER BANNER -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24,12,30&height=220&section=header&text=Srihitha%20Jindam&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Agentic%20AI%20%7C%20Data%20Analytics%20%7C%20Deep%20Learning&descFontSize=20&descAlignY=60&descAlign=50" width="100%" />
+
+<br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/srihithajindam)
-[![Portfolio](https://img.shields.io/badge/Portfolio-2563EB?style=for-the-badge&logo=google-chrome&logoColor=white)](https://srihitha.graspins.com)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srihithajindam1402@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-8B5CF6?style=for-the-badge&logo=google-chrome&logoColor=white)](https://srihitha.graspins.com)
+[![Email](https://img.shields.io/badge/Email-EC4899?style=for-the-badge&logo=gmail&logoColor=white)](mailto:srihithajindam1402@gmail.com)
 
 </div>
 
@@ -13,26 +15,28 @@
 
 ### 🧠 About Me
 
-- 🎓 **MS in Artificial Intelligence** at Brandenburg University of Technology (BTU Cottbus-Senftenberg)
-- 🤖 **Agentic & Generative AI:** Engineering autonomous decision agents, multi-agent systems, and RAG pipelines[cite: 1].
-- 📊 **Energy & Market Data Analytics:** Engineering automated data pipelines and analytical dashboards for European electricity market intelligence[cite: 1].
-- 🔬 **Statistical Deep Learning:** Researching multi-modal sensor fusion (CoAtNets) and autoencoders for time-series anomaly detection[cite: 1].
+- 🎓 **MS in Artificial Intelligence** at Brandenburg University of Technology (BTU Cottbus-Senftenberg)[cite: 1]
+- 🤖 **Agentic & Generative AI:** Engineering autonomous decision agents, multi-agent systems, and RAG pipelines[cite: 1]
+- 📊 **Energy & Market Data Analytics:** Engineering automated data pipelines and analytical dashboards for European electricity market intelligence[cite: 1]
+- 🔬 **Statistical Deep Learning:** Researching multi-modal sensor fusion (CoAtNets) and autoencoders for time-series anomaly detection[cite: 1]
 
 ---
 
-### 🔥 GitHub Streak & Contribution Summary
+### ⚡ Activity & Streaks
 
 <div align="center">
 
-<!-- Streak Card (Total Contributions, Current Streak, Longest Streak) -->
+<!-- 🔥 STREAK CARD (Total, Current, Longest with Gold Theme) -->
 <a href="https://github.com/SrihithaJindam">
-  <img src="https://streak-stats.demolab.com?user=SrihithaJindam&theme=tokyonight&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D&timezone=Europe%2FBerlin" alt="GitHub Streak" width="85%" />
+  <img src="https://streak-stats.demolab.com?user=SrihithaJindam&theme=radical&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D&timezone=Europe%2FBerlin" alt="GitHub Streak" width="85%" />
 </a>
 
 <br/><br/>
 
-<!-- 3D Contribution Graph + Activity Radar Profile Summary -->
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SrihithaJindam&theme=tokyonight" width="95%" alt="Profile Details Radar and Contribution Summary" />
+<!-- 🕸️ SPIDER WEB / RADAR ACTIVITY METRIC -->
+<a href="https://github.com/SrihithaJindam">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SrihithaJindam&theme=radical" width="90%" alt="Contribution Radar and Activity" />
+</a>
 
 </div>
 
@@ -42,29 +46,29 @@
 
 <p align="left">
   <b>Agentic AI & GenAI:</b><br/>
-  <img src="https://img.shields.io/badge/LLMs%20%26%20RAG-412991?style=flat-square&logo=openai&logoColor=white" />
-  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" />
-  <img src="https://img.shields.io/badge/Autonomous_Agents-6366F1?style=flat-square&logo=robot&logoColor=white" />
-  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" />
-  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" />
+  <img src="https://img.shields.io/badge/LLMs%20%26%20RAG-8B5CF6?style=for-the-badge&logo=openai&logoColor=white" />
+  <img src="https://img.shields.io/badge/LangChain-10B981?style=for-the-badge&logo=langchain&logoColor=white" />
+  <img src="https://img.shields.io/badge/Autonomous_Agents-EC4899?style=for-the-badge&logo=robot&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+  <img src="https://img.shields.io/badge/TensorFlow-F59E0B?style=for-the-badge&logo=tensorflow&logoColor=white" />
 </p>
 
 <p align="left">
   <b>Data Analytics & Engineering:</b><br/>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
-  <img src="https://img.shields.io/badge/SQL%20%2F%20MS_SQL-4479A1?style=flat-square&logo=microsoftsqlserver&logoColor=white" />
-  <img src="https://img.shields.io/badge/Tableau-E97627?style=flat-square&logo=tableau&logoColor=white" />
-  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=flat-square&logo=powerbi&logoColor=black" />
-  <img src="https://img.shields.io/badge/R_Programming-276DC3?style=flat-square&logo=r&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQL%20%2F%20MS_SQL-0284C7?style=for-the-badge&logo=microsoftsqlserver&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white" />
+  <img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black" />
+  <img src="https://img.shields.io/badge/R_Programming-276DC3?style=for-the-badge&logo=r&logoColor=white" />
 </p>
 
 <p align="left">
   <b>Cloud, Backend & DevOps:</b><br/>
-  <img src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=flat-square&logo=azuredevops&logoColor=white" />
-  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" />
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white" />
-  <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=django&logoColor=white" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
 </p>
 
 ---
@@ -82,5 +86,5 @@
 ---
 
 <div align="center">
-  <sub>⚡ Consistency drives intelligence. Continuous daily updates across AI and data engineering projects.</sub>
+  <sub>⚡ Consistency drives intelligence. Every commit counts towards building robust systems.</sub>
 </div>
