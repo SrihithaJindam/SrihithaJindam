@@ -1,38 +1,43 @@
-name: Update Streak Stats
+name: Auto-Update Profile Graphs & Streaks
 
 on:
   schedule:
-    - cron: "0 * * * *" # Runs every hour automatically
-  workflow_dispatch:     # Allows manual instant update via Actions tab
+    - cron: "*/30 * * * *" # Runs automatically every 30 minutes
+  workflow_dispatch:        # Allows instant manual trigger anytime
   push:
     branches:
       - main
     paths:
       - ".github/workflows/update-streak.yml"
+      - ".github/scripts/**"
 
 permissions:
   contents: write
 
 jobs:
-  update-streak:
+  update-profile-graphs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Fetch Latest Streak Stats
-        run: |
-          mkdir -p assets
-          curl -s "https://streak-stats.demolab.com?user=SrihithaJindam&theme=dark&ring=FF9800&fire=F44336&currStreakNum=FF9800&currStreakLabel=FFB74D&sideNums=FFB74D&sideLabels=FFCC80&dates=B0BEC5&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D&timezone=Europe%2FBerlin&starting_year=2022" -o assets/streak-stats.svg
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
 
-      - name: Commit and push if changed
+      - name: Run Stats & Graph Updater
+        run: |
+          python .github/scripts/update_profile_stats.py
+
+      - name: Commit and push if any graph changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add assets/streak-stats.svg
+          git add assets/
           if git diff --staged --quiet; then
-            echo "No changes in streak stats"
+            echo "All graphs and streak stats are already up to date."
           else
-            git commit -m "Auto-update streak stats [skip ci]"
+            git commit -m "Auto-update profile graphs and streaks [skip ci]"
             git push
           fi

@@ -42,7 +42,7 @@
 
 <!-- 📈 TOTAL CONTRIBUTIONS & VELOCITY CURVE -->
 <a href="https://github.com/SrihithaJindam">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SrihithaJindam&theme=dark&name=Srihitha%20Jindam" width="85%" alt="Total Contributions & Activity Curve" />
+  <img src="./assets/profile-details.svg" width="85%" alt="Total Contributions & Activity Curve" />
 </a>
 
 </div>
