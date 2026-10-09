@@ -28,7 +28,7 @@
 
 <!-- 🔥 ORANGE & RED STREAK CARD -->
 <a href="https://github.com/SrihithaJindam">
-  <img src="https://streak-stats.demolab.com?user=SrihithaJindam&theme=dark&ring=FF9800&fire=F44336&currStreakNum=FF9800&currStreakLabel=FFB74D&sideNums=FFB74D&sideLabels=FFCC80&dates=B0BEC5&hide_border=true&border_radius=10&date_format=M%20j%5B%2C%20Y%5D&timezone=Europe%2FBerlin&starting_year=2022" alt="GitHub Streak" width="85%" />
+  <img src="./assets/streak-stats.svg" width="85%" alt="GitHub Streak" />
 </a>
 
 <br/><br/>
