@@ -1,6 +1,6 @@
 <div align="center">
 
-<!-- 🌅 LIGHT YELLOW-ORANGE-RED BANNER -->
+<!--  LIGHT YELLOW-ORANGE-RED BANNER -->
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=ffeb3b,ff9800,f44336&height=220&section=header&text=Srihitha%20Jindam&fontSize=50&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Agentic%20AI%20%7C%20Data%20Analytics%20%7C%20Deep%20Learning&descFontSize=20&descAlignY=60&descAlign=50" width="100%" />
 
 <br/>
@@ -13,20 +13,20 @@
 
 ---
 
-### 🧠 About Me
+###  About Me
 
-- 🎓 **MS in Artificial Intelligence** at Brandenburg University of Technology (BTU Cottbus-Senftenberg)
-- 🤖 **Agentic & Generative AI:** Engineering autonomous decision agents, multi-agent systems, and RAG pipelines
-- 📊 **Energy & Market Data Analytics:** Engineering automated data pipelines and analytical dashboards for European electricity market intelligence
-- 🔬 **Statistical Deep Learning:** Researching multi-modal sensor fusion (CoAtNets) and autoencoders for time-series anomaly detection
+-  **MS in Artificial Intelligence** at Brandenburg University of Technology (BTU Cottbus-Senftenberg)
+-  **Agentic & Generative AI:** Engineering autonomous decision agents, multi-agent systems, and RAG pipelines
+-  **Energy & Market Data Analytics:** Engineering automated data pipelines and analytical dashboards for European electricity market intelligence
+-  **Statistical Deep Learning:** Researching multi-modal sensor fusion (CoAtNets) and autoencoders for time-series anomaly detection
 
 ---
 
-### ⚡ Activity & Streaks
+###  Activity & Streaks
 
 <div align="center">
 
-<!-- 🔥 ORANGE & RED STREAK CARD -->
+<!--  ORANGE & RED STREAK CARD -->
 <a href="https://github.com/SrihithaJindam">
   <img src="./assets/streak-stats.svg" width="85%" alt="GitHub Streak" />
 </a>
@@ -80,7 +80,7 @@
 
 ---
 
-### 🚀 Highlighted Repositories & Work
+###  Highlighted Repositories & Work
 
 | Project / System | Tech Focus | Key Deliverable | Link |
 | :--- | :--- | :--- | :---: |
@@ -93,5 +93,5 @@
 ---
 
 <div align="center">
-  <sub>⚡ Consistency drives intelligence. Every commit counts towards building intelligent systems.</sub>
+  <sub> Consistency drives intelligence. Every commit counts towards building intelligent systems.</sub>
 </div>
