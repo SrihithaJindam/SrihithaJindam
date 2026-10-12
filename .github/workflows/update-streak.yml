@@ -2,7 +2,15 @@ name: Auto-Update Profile Graphs & Streaks
 
 on:
   schedule:
-    - cron: "*/30 * * * *" # Runs automatically every 30 minutes
+    # 12:00 PM (Afternoon - 10:00 UTC)
+    - cron: "0 10 * * *"
+    # 6:00 PM (18:00 Evening - 16:00 UTC)
+    - cron: "0 16 * * *"
+    # 10:00 PM (22:00 Night - 20:00 UTC)
+    - cron: "0 20 * * *"
+    # 11:50 PM (23:50 Night before midnight - 21:50 UTC Summer / 22:50 UTC Winter)
+    - cron: "50 21 * * *"
+    - cron: "50 22 * * *"
   workflow_dispatch:        # Allows instant manual trigger anytime
   push:
     branches:
