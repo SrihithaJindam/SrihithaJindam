@@ -40,7 +40,7 @@
 
 <br/><br/>
 
-<!-- 📈 TOTAL CONTRIBUTIONS & VELOCITY CURVE -->
+<!--  TOTAL CONTRIBUTIONS & VELOCITY CURVE -->
 <a href="https://github.com/SrihithaJindam">
   <img src="./assets/profile-details.svg" width="85%" alt="Total Contributions & Activity Curve" />
 </a>
@@ -49,7 +49,7 @@
 
 ---
 
-### 🛠️ Tech Stack & Skills
+### Tech Stack & Skills
 
 <p align="left">
   <b>Agentic AI & GenAI:</b><br/>
