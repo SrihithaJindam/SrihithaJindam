@@ -25,7 +25,7 @@
         <g transform="translate(0, 10)">
             <circle cx="5" cy="5" r="4" fill="#ff9800" />
             <text x="18" y="9" fill="#9f9f9f" font-size="13px">Total Commits:</text>
-            <text x="155" y="9" fill="#ffffff" font-size="13px" font-weight="600">137</text>
+            <text x="155" y="9" fill="#ffffff" font-size="13px" font-weight="600">119</text>
         </g>
         <!-- PRs -->
         <g transform="translate(0, 34)">
@@ -43,7 +43,7 @@
         <g transform="translate(0, 82)">
             <circle cx="5" cy="5" r="4" fill="#ffeb3b" />
             <text x="18" y="9" fill="#9f9f9f" font-size="13px">Contributed Repos:</text>
-            <text x="155" y="9" fill="#ffffff" font-size="13px" font-weight="600">18</text>
+            <text x="155" y="9" fill="#ffffff" font-size="13px" font-weight="600">17</text>
         </g>
         <!-- Code Reviews -->
         <g transform="translate(0, 106)">
@@ -80,7 +80,7 @@
     <g>
         
         <text x="485.0" y="34.0" text-anchor="middle" fill="#ffb74d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11px" font-weight="600">
-            Commits (137)
+            Commits (119)
         </text>
         
         <text x="566.9" y="88.7" text-anchor="start" fill="#ffb74d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11px" font-weight="600">
@@ -88,7 +88,7 @@
         </text>
         
         <text x="536.4" y="180.3" text-anchor="start" fill="#ffb74d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11px" font-weight="600">
-            Contributed (18)
+            Contributed (17)
         </text>
         
         <text x="433.6" y="180.3" text-anchor="end" fill="#ffb74d" font-family="'Segoe UI', Ubuntu, 'Helvetica Neue', Sans-Serif" font-size="11px" font-weight="600">
