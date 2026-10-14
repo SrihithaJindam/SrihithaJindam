@@ -3,16 +3,38 @@ import re
 import math
 import urllib.request
 
-def fetch_url(url, output_path, timeout=15):
+def fetch_url(url, output_path, timeout=15, min_size=500):
     try:
         req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             content = resp.read()
-            if len(content) > 500: # ensure valid payload
-                with open(output_path, "wb") as f:
-                    f.write(content)
-                print(f"Successfully updated {output_path}")
-                return True
+            # Safety checks: ensure valid SVG and not an error/rate-limit card
+            if b"<svg" not in content:
+                print(f"Warning: {url} response is not an SVG, keeping existing {output_path}")
+                return False
+            
+            content_lower = content.lower()
+            error_indicators = [
+                b"rate limited",
+                b"error!",
+                b">error<",
+                b"error: ",
+                b"something went wrong",
+                b"too many requests",
+                b"api rate limit exceeded"
+            ]
+            if any(indicator in content_lower for indicator in error_indicators):
+                print(f"Warning: {url} returned an error/rate-limit SVG, keeping existing {output_path}")
+                return False
+
+            if len(content) < min_size:
+                print(f"Warning: {url} payload too small ({len(content)} bytes), keeping existing {output_path}")
+                return False
+
+            with open(output_path, "wb") as f:
+                f.write(content)
+            print(f"Successfully updated {output_path}")
+            return True
     except Exception as e:
         print(f"Warning: could not fetch {url}: {e}")
     return False
@@ -177,7 +199,7 @@ def main():
 
     # 2. Update Profile Details (Total Contributions Curve) SVG
     profile_details_url = "https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=SrihithaJindam&theme=dark&name=Srihitha%20Jindam"
-    fetch_url(profile_details_url, "assets/profile-details.svg")
+    fetch_url(profile_details_url, "assets/profile-details.svg", min_size=1500)
 
     # 3. Fetch latest metrics and update Spider Activity Radar SVG
     stats_url = "https://github-profile-summary-cards.vercel.app/api/cards/stats?username=SrihithaJindam&theme=dark"
